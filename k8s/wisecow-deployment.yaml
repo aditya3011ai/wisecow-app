@@ -19,10 +19,3 @@ spec:
           image: aditya3011/wisecow-app:latest  # Your DockerHub image
           ports:
             - containerPort: 4499               # The port your app listens on
-          resources:
-            requests:
-              cpu: "100m"
-              memory: "128Mi"
-            limits:
-              cpu: "200m"
-              memory: "256Mi"
