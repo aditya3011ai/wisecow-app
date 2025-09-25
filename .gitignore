@@ -1,0 +1,16 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temp
+*.tmp
+*.swp
+
+# Kubernetes configs with secrets 
+*.secret.yaml
+
+# Docker related
+*.pid
