@@ -57,6 +57,6 @@ jobs:
 
     - name: Apply Kubernetes Manifests
       run: |
-        kubectl apply -f wisecow-deployment.yaml
-        kubectl apply -f wisecow-service.yaml
-        kubectl apply -f wisecow-ingress.yaml
+        kubectl apply -f k8s/wisecow-deployment.yaml
+        kubectl apply -f k8s/wisecow-service.yaml
+        kubectl apply -f k8s/wisecow-ingress.yaml
